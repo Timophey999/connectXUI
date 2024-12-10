@@ -1,0 +1,48 @@
+# Исключение для виртуальной среды
+.venv/
+env/
+venv/
+
+# Лог-файлы
+*.log
+
+# Исключения для IDE и редакторов
+.idea/
+*.iml
+.vscode/
+
+# Кэш Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Исключения для тестов
+.pytest_cache/
+.cache/
+htmlcov/
+
+# Файлы, создаваемые системой
+.DS_Store
+Thumbs.db
+
+# Сборка пакета
+build/
+dist/
+*.egg-info/
+*.eggs
+
+# Исключение для покрытия тестов
+.coverage
+*.cover
+
+# Исключение для документации Sphinx
+docs/_build/
+
+# Исключение для временных файлов
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Исключение для зависимостей
+pip-wheel-metadata/
