@@ -8,7 +8,7 @@ setup(
     long_description_content_type='text/markdown',
     author='Ваше Имя',
     author_email='timoxa.m.is@icloud.com',
-    url='https://github.com/yourusername/asynxui',
+    url='https://github.com/Timophey999/connectXUI.git',
     packages=find_packages(),
     install_requires=[
         'aiohttp',
